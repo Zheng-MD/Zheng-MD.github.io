@@ -6,18 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>layout_designer | Hexo</title>
+  <title>加密 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="如何显示目录 在本地路径：D:\Blog\themes\yilia 下打开 _config.ym 文件 参考：(cloudy-liu.github.io)    将toc：1，改成toc：2，即可">
+  <meta name="description" content="Welcome to my blog, enter password（12345） to read.">
 <meta property="og:type" content="article">
-<meta property="og:title" content="layout_designer">
+<meta property="og:title" content="加密">
 <meta property="og:url" content="http://example.com/2020/10/23/layout-designer/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="如何显示目录 在本地路径：D:\Blog\themes\yilia 下打开 _config.ym 文件 参考：(cloudy-liu.github.io)    将toc：1，改成toc：2，即可">
+<meta property="og:description" content="Welcome to my blog, enter password（12345） to read.">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-10-23T00:55:36.000Z">
-<meta property="article:modified_time" content="2020-10-23T03:02:31.387Z">
-<meta property="article:author" content="冬">
+<meta property="article:modified_time" content="2020-10-25T15:15:09.034Z">
+<meta property="article:author" content="dong">
+<meta property="article:tag" content="标签">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -61,7 +62,9 @@
 	        
 				<li><a href="/archives/index.html">归档</a></li>
 	        
-				<li><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+				<li><a href="/tags/">标签</a></li>
+	        
+				<li><a href="/categories/">分类</a></li>
 	        
 			</ul>
 		</nav>
@@ -115,6 +118,8 @@
 			
 				
 			
+				
+			
 			
 			
 			<nav class="header-nav">
@@ -129,11 +134,13 @@
 				<ul style="width: 70%">
 				
 				
-					<li style="width: 33.333333333333336%"><a href="/">主页</a></li>
+					<li style="width: 25%"><a href="/">主页</a></li>
 		        
-					<li style="width: 33.333333333333336%"><a href="/archives/index.html">归档</a></li>
+					<li style="width: 25%"><a href="/archives/index.html">归档</a></li>
 		        
-					<li style="width: 33.333333333333336%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+					<li style="width: 25%"><a href="/tags/">标签</a></li>
+		        
+					<li style="width: 25%"><a href="/categories/">分类</a></li>
 		        
 				</ul>
 			</nav>
@@ -155,7 +162,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      layout_designer
+      加密
     </h1>
   
 
@@ -166,13 +173,84 @@
         
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="如何显示目录"><a href="#如何显示目录" class="headerlink" title="如何显示目录"></a>如何显示目录</h1><blockquote>
-<p>在本地路径：D:\Blog\themes\yilia 下打开 _config.ym 文件<br><br> 参考：(cloudy-liu.github.io)  </p>
-</blockquote>
-<p>将toc：1，改成toc：2，即可</p>
 
+
+    <!-- 下面的代码是修改： -->
+    <!-- 标签 -->
+    <!-- 分类 -->
+
+<!-- 法一：https://blog.csdn.net/dta0502/article/details/89607895  —— 4、多层分类 -->
+    <!-- <article class="article article-type-post show">
+      <header class="article-header" style="border-bottom: 1px solid #ccc">
+      <h1 class="article-title" itemprop="name">
+        加密
+      </h1>
+      </header>
+    
+      
+      <div class="category-all-page">
+        <h2>共计&nbsp;2&nbsp;个分类</h2>
+        <ul class="category-list-item-list"><li class="category-list-item-list-item"><a class="category-list-item-list-link" href="/categories/English-learning/">English learning</a><span class="category-list-item-list-count">1</span></li><li class="category-list-item-list-item"><a class="category-list-item-list-link" href="/categories/%E5%B0%9D%E8%AF%95/">尝试</a><span class="category-list-item-list-count">1</span></li></ul>
+      </div>
+      
+    </article> -->
+    
+
+<!-- //////////////////////////////////////////////////////////////////////////// -->
+<!-- 法二  https://www.cnblogs.com/zzw1024/p/12051995.html -->
+      <!-- <div class="article-entry" itemprop="articleBody">
+        
+          
+            
+              <div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <div class="hbe-input-container">
+  <input type="password" id="hbePass" placeholder="" />
+    <label for="hbePass">Welcome to my blog, enter password to read. 【密码是12345】</label>
+    <div class="bottom-line"></div>
+  </div>
+  <script id="hbeData" type="hbeData" data-hmacdigest="10d2c8db4476265e0e71ce47f8a3b55b411870835db45532d8fd20c42eeb5b5c">bbb233265d201e94d73982822d3c357a9848d3361648e62957624f6fd19e5bb1dfdbfc4229d38a16b003cbe77534ab40ce6a9817bd3f0067ad5e6e9aa84fbb1248d995910383f8d4b94abdf8256b300b0d4e1c2bb6d20c29dfd2fdb45f7cd79050f86515f51bb951c475307df6e4d3b227d80a36e2523ce50251c2cb8f9f906b57b13a7999a1a3be345c575142ea45a750bbc60296dee7aee761191dacdd6b58e553acf8e581e627e3c0c5d42f60ffd1a440b3d98438cb7f1aad1b6fecb1cef337f106703a2e4142058d02d7451d2b51a4e348c79c228cdab577f11e01543a4c02e5811ac77c198824704a213c2fb207f79a3a0125aae0c05570a68af7be58ec972167c88facc88d6ed50aa999dc6542f67125ce8b2961535c10b3e2486c7e11a6a2caf237174aa0dd5be62564682da0d6babf9595af9c5edd1602af50dd7fe8dad322af15518a77232cf87da347b674a863fa259e66e20002514d3b7d13af45c3d94616104cb04178fbb291e16c7e52d1183d4f7d6f9bff0de06872fa525f9fa09619e70e75d73fa78010c6f46687bd840cb6e42994db1f887dc55db1732953e7cc3ab2173321718ad8944e0fb3d492133c0ab801e1d3a09aaf003bc5e0473039b77fb98d553cb30c32fcb3716ca47f1be9f215a347c063699ec34edf30a3413bef19cdba9f0dc97616a5536c676f8446963ede540b55458a4ba439523d47616f2857a243678cb938306398d82c7cff1ac26c87086faf7e9ed1b1cb6ff1f25c69d90334e9d1a8749216447be7a9a6ae96e007336bf929080548c2cf4828210c5e881e738e98dba468155a49769afa1e3440d5033559a805c8f7ae949f733f38be9f77db0ef210184a31ec049bcef5d58a97917ba98a6ae7917c7f941c64411df7b04bb35afb2fb6e582af221fa2cb0102d1a8f42824b3c2335da90aa94abfc6d83644ed862d5851f40c0c072ba07af91212a61b59af2369256225d4451d1a8c6d491a6266087d21d504e4bf6cbd078bf9c58fa14baac90b34a7abac727e1620a3b89e7be2b7559fa68f0293b8156ddaba01400a9eefe13f79361b5d196dc00cec783e9be6d1bf4e3ed8b92783e809992287e4f238311d46d159de65cee4acf3c2104996f52e5acc97a8f0f2bc997be4616f38e99d00d8a533e17ce7634cbbfbda44958ae3b621e5f1e2c0ecbbb169d14dab1a5ae84245c84c5ea4f576377f2aa9bf3c40d6f6063d1985e611c8ca9ffd0ee25e9acfbf7f090a71e2994f75a7c463d463584d9a47aada22eb68631261c1b67715d6723074b460b64f15131db0f35f4176d34f1317afc75fc6ba8f81232ce0f181075875af62a9ff52356febaec012301badabf4bd329231c7ece3facf100c8a1699172632fe7daaf89a874e8adb25835b7cc53762c4b8384eb88ca8bf90348247b51cea4922f8210e076abfc9a75d6fff2e69d1513f08e64dd26be11197aab919eef0feaee1f0eb57c244ade5a1ab5a2578f903798d17f8bc0703ff7a9d14e838895234a8d43aa3aaf64580ee5029e8a5c6b0c26e19abcd226afdbc37176eca7a0e5b206ce9f5e6bae0cbafd8630293ea7f4ca917d4ba52b678c933efaf7517a4d65fb4cf7b848b847aed47500001058d70ed155050b3d575ceb06defe10810221e9dde61e2ab56d2fd3815c743e4fe49b1e3aec448b8d2e8dbf1ebca53231b107c188b2f4e58f2c39208ac1ba98785d6ea352eef78f2360c8a3e8b55c8e02b1d6c49efaad6ed65df5cb43f83fa67813de3f64da0c9e08dd75aa28d36930c2a646ac53eb9b7309a4aef9a23b46d807ac285399e351537adc3e6c4a758f39e03ddf0fe5e1bc9c19375d459e53272b2040ec2e97dd69f44dd68435f8f0031fac5b294ffa9d006e610d85c49092db129b7f83679612cf41d585f5ec38fdf5c247d0bcea4b2be39a63a9c057cc628028fd3e0160f71162580cc4014455b004f5d005fc54f47cc33df7dbe6a92898f8665d1f3f97d3d0213149f7a03abf456fc9f8a0d16337445a6eb79ea86a1fef4fb2aa41c2a55db7c9456045879f4f4f74ea00013e58e73f04c1b8ed4ec95e69b3e893bdce9fea7adaf974145010d68010c2485f058504373a38e49fa659770e72fe975ccf1f6a3faadb8cd285f27f08a4a39e71d270d703cad72e0570018dccee181bc720b2981c94e0f3c935b7bcb5cae260a7e206db686179ad9253ffdceb19ff804c8ff166b0a8e2a889c0c15d481cce0bf393378f9cf66e4ef3178b5a25e1b8f8e2d4667ea2eec4dab59c95e411266470009552c82ad18ebe546e0b0fd97310424c3e6175d1fa95bbdb261c6bf010abee069bca4515bc7131b063e6f1072bef32bce0becb9c78813bb509371686b183fc1a31a0cc8035e5b19c056fe824ae73e3e8cb6464e4d75e479c47a8bebb46fed5e59e5b7209b437a5e72c76a513380b9807d887c8df5cf941691ece247423bfc98d3564f95f7c15566bc835db44c300db085fde08aaf5c3ace8d8cbbbf09d0132ea56199a27c12759700a0635bc8bc0f152424def72a21fc0e2e79ec6d1bc96b0fcf81f9fd8bd3356956e9835328adde709a957e22c28540fdcf2fc8021d941a64901b16792ca339d04d3c6ca2aba5c90c6e38be133895adad72f26d148b4b6309f0c005ce823feab02cfa6a5fe88e30af93e971df8668af984c35eda21d4cc26f762a8ddc7f8704102a6c25f1ad0cab399e47aa5a85709a3858234f846c4bb5fe964eb9884b44f42128c12bcb8151ccd91ea3de1f124512f7f8e5fd8e48c787b2a0aa90725167a93f565cc36ece5d8c01ce2c045272e45bb4c662744021d1028e87a33c0c507527882ce723c489d15ccea59e90bbd283bedf7b8e8a937dd4ab443c457bfaa86fe360239e5a0534f02663694f310c6f39dac848fa617d7325</script>
+</div>
+<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">
+            
+          
+      </div> -->
+
+<!-- ////////////////////////////////////////////////////////////// -->
+<!-- 将 法一 和 法二 结合 -->
+     <div class="article-entry" itemprop="articleBody">
+      
+        
+          
+            <div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <div class="hbe-input-container">
+  <input type="password" id="hbePass" placeholder="" />
+    <label for="hbePass">Welcome to my blog, enter password to read. 【密码是12345】</label>
+    <div class="bottom-line"></div>
+  </div>
+  <script id="hbeData" type="hbeData" data-hmacdigest="10d2c8db4476265e0e71ce47f8a3b55b411870835db45532d8fd20c42eeb5b5c">bbb233265d201e94d73982822d3c357a9848d3361648e62957624f6fd19e5bb1dfdbfc4229d38a16b003cbe77534ab40ce6a9817bd3f0067ad5e6e9aa84fbb1248d995910383f8d4b94abdf8256b300b0d4e1c2bb6d20c29dfd2fdb45f7cd79050f86515f51bb951c475307df6e4d3b227d80a36e2523ce50251c2cb8f9f906b57b13a7999a1a3be345c575142ea45a750bbc60296dee7aee761191dacdd6b58e553acf8e581e627e3c0c5d42f60ffd1a440b3d98438cb7f1aad1b6fecb1cef337f106703a2e4142058d02d7451d2b51a4e348c79c228cdab577f11e01543a4c02e5811ac77c198824704a213c2fb207f79a3a0125aae0c05570a68af7be58ec972167c88facc88d6ed50aa999dc6542f67125ce8b2961535c10b3e2486c7e11a6a2caf237174aa0dd5be62564682da0d6babf9595af9c5edd1602af50dd7fe8dad322af15518a77232cf87da347b674a863fa259e66e20002514d3b7d13af45c3d94616104cb04178fbb291e16c7e52d1183d4f7d6f9bff0de06872fa525f9fa09619e70e75d73fa78010c6f46687bd840cb6e42994db1f887dc55db1732953e7cc3ab2173321718ad8944e0fb3d492133c0ab801e1d3a09aaf003bc5e0473039b77fb98d553cb30c32fcb3716ca47f1be9f215a347c063699ec34edf30a3413bef19cdba9f0dc97616a5536c676f8446963ede540b55458a4ba439523d47616f2857a243678cb938306398d82c7cff1ac26c87086faf7e9ed1b1cb6ff1f25c69d90334e9d1a8749216447be7a9a6ae96e007336bf929080548c2cf4828210c5e881e738e98dba468155a49769afa1e3440d5033559a805c8f7ae949f733f38be9f77db0ef210184a31ec049bcef5d58a97917ba98a6ae7917c7f941c64411df7b04bb35afb2fb6e582af221fa2cb0102d1a8f42824b3c2335da90aa94abfc6d83644ed862d5851f40c0c072ba07af91212a61b59af2369256225d4451d1a8c6d491a6266087d21d504e4bf6cbd078bf9c58fa14baac90b34a7abac727e1620a3b89e7be2b7559fa68f0293b8156ddaba01400a9eefe13f79361b5d196dc00cec783e9be6d1bf4e3ed8b92783e809992287e4f238311d46d159de65cee4acf3c2104996f52e5acc97a8f0f2bc997be4616f38e99d00d8a533e17ce7634cbbfbda44958ae3b621e5f1e2c0ecbbb169d14dab1a5ae84245c84c5ea4f576377f2aa9bf3c40d6f6063d1985e611c8ca9ffd0ee25e9acfbf7f090a71e2994f75a7c463d463584d9a47aada22eb68631261c1b67715d6723074b460b64f15131db0f35f4176d34f1317afc75fc6ba8f81232ce0f181075875af62a9ff52356febaec012301badabf4bd329231c7ece3facf100c8a1699172632fe7daaf89a874e8adb25835b7cc53762c4b8384eb88ca8bf90348247b51cea4922f8210e076abfc9a75d6fff2e69d1513f08e64dd26be11197aab919eef0feaee1f0eb57c244ade5a1ab5a2578f903798d17f8bc0703ff7a9d14e838895234a8d43aa3aaf64580ee5029e8a5c6b0c26e19abcd226afdbc37176eca7a0e5b206ce9f5e6bae0cbafd8630293ea7f4ca917d4ba52b678c933efaf7517a4d65fb4cf7b848b847aed47500001058d70ed155050b3d575ceb06defe10810221e9dde61e2ab56d2fd3815c743e4fe49b1e3aec448b8d2e8dbf1ebca53231b107c188b2f4e58f2c39208ac1ba98785d6ea352eef78f2360c8a3e8b55c8e02b1d6c49efaad6ed65df5cb43f83fa67813de3f64da0c9e08dd75aa28d36930c2a646ac53eb9b7309a4aef9a23b46d807ac285399e351537adc3e6c4a758f39e03ddf0fe5e1bc9c19375d459e53272b2040ec2e97dd69f44dd68435f8f0031fac5b294ffa9d006e610d85c49092db129b7f83679612cf41d585f5ec38fdf5c247d0bcea4b2be39a63a9c057cc628028fd3e0160f71162580cc4014455b004f5d005fc54f47cc33df7dbe6a92898f8665d1f3f97d3d0213149f7a03abf456fc9f8a0d16337445a6eb79ea86a1fef4fb2aa41c2a55db7c9456045879f4f4f74ea00013e58e73f04c1b8ed4ec95e69b3e893bdce9fea7adaf974145010d68010c2485f058504373a38e49fa659770e72fe975ccf1f6a3faadb8cd285f27f08a4a39e71d270d703cad72e0570018dccee181bc720b2981c94e0f3c935b7bcb5cae260a7e206db686179ad9253ffdceb19ff804c8ff166b0a8e2a889c0c15d481cce0bf393378f9cf66e4ef3178b5a25e1b8f8e2d4667ea2eec4dab59c95e411266470009552c82ad18ebe546e0b0fd97310424c3e6175d1fa95bbdb261c6bf010abee069bca4515bc7131b063e6f1072bef32bce0becb9c78813bb509371686b183fc1a31a0cc8035e5b19c056fe824ae73e3e8cb6464e4d75e479c47a8bebb46fed5e59e5b7209b437a5e72c76a513380b9807d887c8df5cf941691ece247423bfc98d3564f95f7c15566bc835db44c300db085fde08aaf5c3ace8d8cbbbf09d0132ea56199a27c12759700a0635bc8bc0f152424def72a21fc0e2e79ec6d1bc96b0fcf81f9fd8bd3356956e9835328adde709a957e22c28540fdcf2fc8021d941a64901b16792ca339d04d3c6ca2aba5c90c6e38be133895adad72f26d148b4b6309f0c005ce823feab02cfa6a5fe88e30af93e971df8668af984c35eda21d4cc26f762a8ddc7f8704102a6c25f1ad0cab399e47aa5a85709a3858234f846c4bb5fe964eb9884b44f42128c12bcb8151ccd91ea3de1f124512f7f8e5fd8e48c787b2a0aa90725167a93f565cc36ece5d8c01ce2c045272e45bb4c662744021d1028e87a33c0c507527882ce723c489d15ccea59e90bbd283bedf7b8e8a937dd4ab443c457bfaa86fe360239e5a0534f02663694f310c6f39dac848fa617d7325</script>
+</div>
+<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">
+          
+        
+      
+    </div> 
+
+    <!-- 根据教程，把下面注释掉的代码换成了上面的 -->
+
+<!-- //////////////////////////////////////////////////////////////////////////// -->
+<!-- 原始的 -->
+
+    <!-- <div class="article-entry" itemprop="articleBody">
+      
+        <div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <div class="hbe-input-container">
+  <input type="password" id="hbePass" placeholder="" />
+    <label for="hbePass">Welcome to my blog, enter password to read. 【密码是12345】</label>
+    <div class="bottom-line"></div>
+  </div>
+  <script id="hbeData" type="hbeData" data-hmacdigest="10d2c8db4476265e0e71ce47f8a3b55b411870835db45532d8fd20c42eeb5b5c">bbb233265d201e94d73982822d3c357a9848d3361648e62957624f6fd19e5bb1dfdbfc4229d38a16b003cbe77534ab40ce6a9817bd3f0067ad5e6e9aa84fbb1248d995910383f8d4b94abdf8256b300b0d4e1c2bb6d20c29dfd2fdb45f7cd79050f86515f51bb951c475307df6e4d3b227d80a36e2523ce50251c2cb8f9f906b57b13a7999a1a3be345c575142ea45a750bbc60296dee7aee761191dacdd6b58e553acf8e581e627e3c0c5d42f60ffd1a440b3d98438cb7f1aad1b6fecb1cef337f106703a2e4142058d02d7451d2b51a4e348c79c228cdab577f11e01543a4c02e5811ac77c198824704a213c2fb207f79a3a0125aae0c05570a68af7be58ec972167c88facc88d6ed50aa999dc6542f67125ce8b2961535c10b3e2486c7e11a6a2caf237174aa0dd5be62564682da0d6babf9595af9c5edd1602af50dd7fe8dad322af15518a77232cf87da347b674a863fa259e66e20002514d3b7d13af45c3d94616104cb04178fbb291e16c7e52d1183d4f7d6f9bff0de06872fa525f9fa09619e70e75d73fa78010c6f46687bd840cb6e42994db1f887dc55db1732953e7cc3ab2173321718ad8944e0fb3d492133c0ab801e1d3a09aaf003bc5e0473039b77fb98d553cb30c32fcb3716ca47f1be9f215a347c063699ec34edf30a3413bef19cdba9f0dc97616a5536c676f8446963ede540b55458a4ba439523d47616f2857a243678cb938306398d82c7cff1ac26c87086faf7e9ed1b1cb6ff1f25c69d90334e9d1a8749216447be7a9a6ae96e007336bf929080548c2cf4828210c5e881e738e98dba468155a49769afa1e3440d5033559a805c8f7ae949f733f38be9f77db0ef210184a31ec049bcef5d58a97917ba98a6ae7917c7f941c64411df7b04bb35afb2fb6e582af221fa2cb0102d1a8f42824b3c2335da90aa94abfc6d83644ed862d5851f40c0c072ba07af91212a61b59af2369256225d4451d1a8c6d491a6266087d21d504e4bf6cbd078bf9c58fa14baac90b34a7abac727e1620a3b89e7be2b7559fa68f0293b8156ddaba01400a9eefe13f79361b5d196dc00cec783e9be6d1bf4e3ed8b92783e809992287e4f238311d46d159de65cee4acf3c2104996f52e5acc97a8f0f2bc997be4616f38e99d00d8a533e17ce7634cbbfbda44958ae3b621e5f1e2c0ecbbb169d14dab1a5ae84245c84c5ea4f576377f2aa9bf3c40d6f6063d1985e611c8ca9ffd0ee25e9acfbf7f090a71e2994f75a7c463d463584d9a47aada22eb68631261c1b67715d6723074b460b64f15131db0f35f4176d34f1317afc75fc6ba8f81232ce0f181075875af62a9ff52356febaec012301badabf4bd329231c7ece3facf100c8a1699172632fe7daaf89a874e8adb25835b7cc53762c4b8384eb88ca8bf90348247b51cea4922f8210e076abfc9a75d6fff2e69d1513f08e64dd26be11197aab919eef0feaee1f0eb57c244ade5a1ab5a2578f903798d17f8bc0703ff7a9d14e838895234a8d43aa3aaf64580ee5029e8a5c6b0c26e19abcd226afdbc37176eca7a0e5b206ce9f5e6bae0cbafd8630293ea7f4ca917d4ba52b678c933efaf7517a4d65fb4cf7b848b847aed47500001058d70ed155050b3d575ceb06defe10810221e9dde61e2ab56d2fd3815c743e4fe49b1e3aec448b8d2e8dbf1ebca53231b107c188b2f4e58f2c39208ac1ba98785d6ea352eef78f2360c8a3e8b55c8e02b1d6c49efaad6ed65df5cb43f83fa67813de3f64da0c9e08dd75aa28d36930c2a646ac53eb9b7309a4aef9a23b46d807ac285399e351537adc3e6c4a758f39e03ddf0fe5e1bc9c19375d459e53272b2040ec2e97dd69f44dd68435f8f0031fac5b294ffa9d006e610d85c49092db129b7f83679612cf41d585f5ec38fdf5c247d0bcea4b2be39a63a9c057cc628028fd3e0160f71162580cc4014455b004f5d005fc54f47cc33df7dbe6a92898f8665d1f3f97d3d0213149f7a03abf456fc9f8a0d16337445a6eb79ea86a1fef4fb2aa41c2a55db7c9456045879f4f4f74ea00013e58e73f04c1b8ed4ec95e69b3e893bdce9fea7adaf974145010d68010c2485f058504373a38e49fa659770e72fe975ccf1f6a3faadb8cd285f27f08a4a39e71d270d703cad72e0570018dccee181bc720b2981c94e0f3c935b7bcb5cae260a7e206db686179ad9253ffdceb19ff804c8ff166b0a8e2a889c0c15d481cce0bf393378f9cf66e4ef3178b5a25e1b8f8e2d4667ea2eec4dab59c95e411266470009552c82ad18ebe546e0b0fd97310424c3e6175d1fa95bbdb261c6bf010abee069bca4515bc7131b063e6f1072bef32bce0becb9c78813bb509371686b183fc1a31a0cc8035e5b19c056fe824ae73e3e8cb6464e4d75e479c47a8bebb46fed5e59e5b7209b437a5e72c76a513380b9807d887c8df5cf941691ece247423bfc98d3564f95f7c15566bc835db44c300db085fde08aaf5c3ace8d8cbbbf09d0132ea56199a27c12759700a0635bc8bc0f152424def72a21fc0e2e79ec6d1bc96b0fcf81f9fd8bd3356956e9835328adde709a957e22c28540fdcf2fc8021d941a64901b16792ca339d04d3c6ca2aba5c90c6e38be133895adad72f26d148b4b6309f0c005ce823feab02cfa6a5fe88e30af93e971df8668af984c35eda21d4cc26f762a8ddc7f8704102a6c25f1ad0cab399e47aa5a85709a3858234f846c4bb5fe964eb9884b44f42128c12bcb8151ccd91ea3de1f124512f7f8e5fd8e48c787b2a0aa90725167a93f565cc36ece5d8c01ce2c045272e45bb4c662744021d1028e87a33c0c507527882ce723c489d15ccea59e90bbd283bedf7b8e8a937dd4ab443c457bfaa86fe360239e5a0534f02663694f310c6f39dac848fa617d7325</script>
+</div>
+<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">
       
 
       
@@ -197,11 +275,33 @@
           </a>
         </div>
       
-    </div>
+    </div> -->
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">标签</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/尝试//" class="article-tag-list-link color3">尝试</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
 
       
 
@@ -265,6 +365,15 @@
   
 <nav id="article-nav">
   
+    <a href="/2020/10/25/English-oral-practice/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          English oral practice
+        
+      </div>
+    </a>
+  
   
     <a href="/2020/10/22/my-first-blog-post/" id="article-nav-older" class="article-nav-link-wrap">
       <div class="article-nav-title">my first blog post</div>
@@ -294,7 +403,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E6%98%BE%E7%A4%BA%E7%9B%AE%E5%BD%95"><span class="toc-number">1.</span> <span class="toc-text">如何显示目录</span></a></li></ol>
+                    目录，不存在的…
                     </div>
                 </span>
             </div>
@@ -323,7 +432,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2020 冬
+    		&copy; 2020 dong
     	</div>
       	<div class="footer-right">
       		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
@@ -404,6 +513,18 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">speaking</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">标签</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">hexo & markdown 操作</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
